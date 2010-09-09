@@ -7,10 +7,10 @@ set :domain, "localhost"
 #set :server_aliases, []
 
 #the name of this wordpress project
-set :application, "wordpress-capistrano-test"
+set :application, "alba-manchega"
 
 #your repo
-set :repository,  "git@github.com:jestro/wordpress-capistrano.git"
+set :repository,  "git@github.com:ffomenko/alba-manchega.git"
 
 require File.join(File.dirname(__FILE__), 'lib', 'deploy', 'wordpress')
 
